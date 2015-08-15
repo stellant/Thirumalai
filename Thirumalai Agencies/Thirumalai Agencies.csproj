@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F2973BB-5674-42D5-92F2-5A28091069E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Thirumalai_Agencies</RootNamespace>
+    <AssemblyName>Sri Thirumalai Agencies</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>212D012BD0725EC8DDCFF5C23BB209B72E0FBC83</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Thirumalai Agencies_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addcompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addcompany.Designer.cs">
+      <DependentUpon>addcompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addproduct.Designer.cs">
+      <DependentUpon>addproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changepassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changepassword.Designer.cs">
+      <DependentUpon>changepassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Copy of modifyproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copy of modifyproduct.Designer.cs">
+      <DependentUpon>Copy of modifyproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="advancepayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="advancepayment.Designer.cs">
+      <DependentUpon>advancepayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="front.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="front.Designer.cs">
+      <DependentUpon>front.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modifycompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modifycompany.Designer.cs">
+      <DependentUpon>modifycompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="neworder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neworder.Designer.cs">
+      <DependentUpon>neworder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newpurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newpurchase.Designer.cs">
+      <DependentUpon>newpurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printbill.Designer.cs">
+      <DependentUpon>printbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="salesbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesbill.Designer.cs">
+      <DependentUpon>salesbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salescollection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salescollection.Designer.cs">
+      <DependentUpon>salescollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salescomplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salescomplete.Designer.cs">
+      <DependentUpon>salescomplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salestoday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salestoday.Designer.cs">
+      <DependentUpon>salestoday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stockupdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockupdate.Designer.cs">
+      <DependentUpon>stockupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stockview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockview.Designer.cs">
+      <DependentUpon>stockview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thirumalaiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>thirumalaiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="thirumalaiDataSet2.cs">
+      <DependentUpon>thirumalaiDataSet2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="thirumalaiDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>thirumalaiDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vieworders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vieworders.Designer.cs">
+      <DependentUpon>vieworders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewpurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewpurchase.Designer.cs">
+      <DependentUpon>viewpurchase.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addcompany.resx">
+      <DependentUpon>addcompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addproduct.resx">
+      <DependentUpon>addproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="advancepayment.resx">
+      <DependentUpon>advancepayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changepassword.resx">
+      <DependentUpon>changepassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copy of modifyproduct.resx">
+      <DependentUpon>Copy of modifyproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="front.resx">
+      <DependentUpon>front.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modifycompany.resx">
+      <DependentUpon>modifycompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="neworder.resx">
+      <DependentUpon>neworder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newpurchase.resx">
+      <DependentUpon>newpurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printbill.resx">
+      <DependentUpon>printbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="salesbill.resx">
+      <DependentUpon>salesbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salescollection.resx">
+      <DependentUpon>salescollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salescomplete.resx">
+      <DependentUpon>salescomplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salestoday.resx">
+      <DependentUpon>salestoday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockupdate.resx">
+      <DependentUpon>stockupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockview.resx">
+      <DependentUpon>stockview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vieworders.resx">
+      <DependentUpon>vieworders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewpurchase.resx">
+      <DependentUpon>viewpurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="thirumalaiDataSet.xsc">
+      <DependentUpon>thirumalaiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="thirumalaiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>thirumalaiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="thirumalaiDataSet.xss">
+      <DependentUpon>thirumalaiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="thirumalaiDataSet2.xsc">
+      <DependentUpon>thirumalaiDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="thirumalaiDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>thirumalaiDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="thirumalaiDataSet2.xss">
+      <DependentUpon>thirumalaiDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

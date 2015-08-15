@@ -1,0 +1,48 @@
+c:\users\thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Form1.resources
+c:\users\thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Properties.Resources.resources
+c:\users\thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai Agencies.csproj.GenerateResource.Cache
+C:\Users\Thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai Agencies.csprojResolveAssemblyReference.cache
+C:\Users\Thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.MDIParent1.resources
+C:\Users\Thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\bin\Debug\Sri Thirumalai Agencies.exe
+C:\Users\Thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\bin\Debug\Sri Thirumalai Agencies.pdb
+C:\Users\Thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Sri Thirumalai Agencies.exe
+C:\Users\Thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Sri Thirumalai Agencies.pdb
+C:\Users\Thanga\documents\visual studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.changepassword.resources
+C:\Users\Thanga\Documents\Visual Studio 2010\Projects\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Form2.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Sri Thirumalai Agencies.exe
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Sri Thirumalai Agencies.pdb
+E:\Thirumalai Agencies\Thirumalai Agencies\bin\Debug\Sri Thirumalai Agencies.exe
+E:\Thirumalai Agencies\Thirumalai Agencies\bin\Debug\Sri Thirumalai Agencies.pdb
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.changepassword.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Form1.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Form2.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.MDIParent1.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Properties.Resources.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.addcompany.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.modifycompany.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.addproduct.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.modifyproduct.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\bin\Debug\Sri Thirumalai Agencies.exe.manifest
+E:\Thirumalai Agencies\Thirumalai Agencies\bin\Debug\Sri Thirumalai Agencies.application
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Sri Thirumalai Agencies.exe.manifest
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Sri Thirumalai Agencies.application
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.neworder.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai Agencies.csproj.GenerateResource.Cache
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.advancepayment.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.newpurchase.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.vieworders.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.viewpurchase.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.salesbill.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.front.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\bin\Debug\Sri Thirumalai Agencies.exe.config
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai Agencies.csprojResolveAssemblyReference.cache
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\RdlCompile.cache
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\RdlCompile.compiled
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Form4.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.salescollection.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.printbill.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.salescomplete.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.salestoday.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.stockupdate.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.stockview.resources
+E:\Thirumalai Agencies\Thirumalai Agencies\obj\x86\Debug\Thirumalai_Agencies.Form3.resources

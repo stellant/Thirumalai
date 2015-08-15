@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Sri Thirumalai Agencies.exe" version="1.0.0.0" publicKeyToken="24f1a502bba451aa" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Sri Thirumalai Agencies" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Sri Thirumalai Agencies.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sri Thirumalai Agencies.exe" size="1307136">
+      <assemblyIdentity name="Sri Thirumalai Agencies" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>aqI6hCRVkOTCFJ/QAUTO+kSvq/Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Thanga-PC\Thanga" issuerKeyHash="cbfebad22ccdc986e0abf9e5f21729a55f3f1c5d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3u4yFV/VzpLP0RqFAN8i/p779uk=</DigestValue></Reference></SignedInfo><SignatureValue>QKmLcbVgrkOfTfGqRfN5JozvVk3KoMsaBGjaCOvR84k+4bqtKB4LZt6GOMdHMi7jef4Jo5tM/E36THKZorz1TBERRvlh1P3N4jI9vNoAZnXCZbk1uCfGQaoNq0TcirjuIsl5EgxC5MwfeyJZ5Is3iHzNCEyRUFki48A1OHSaxP8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>09FxN5CWmE1nyjbpsBqUrFQhbD/XKIIqSkPwkh0TeSf5CR6GpCKJz9rKQ8UWH4W23IgnKc2PCczvlEmQ9v+4jhusG0pt2YL46c/2KCmQwExIjBt4rrHsOPUwWtYzT07fhf0s1RePTCW9/ZrcNPsx/9FNI2zkZOV0w7tL6UGtHPk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e9f6fb9efe22df00851ad1cf92ced55f1532eede" Description="" Url=""><as:assemblyIdentity name="Sri Thirumalai Agencies.exe" version="1.0.0.0" publicKeyToken="24f1a502bba451aa" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Thanga-PC\Thanga</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>StZmw6K8X5hf3mge+jrISThmwOI=</DigestValue></Reference></SignedInfo><SignatureValue>yf5WR/YAEAsDC08KL2id8f8gGwDNwwR7ycXBu1xcs2Lp8NThFBmT9B7ELtys6+d/FLBrWDUIVrspFC+O1s4jG4MRrX66+U4xVmNAhoIUbc/2J8/n/2iLErOn4iyS+uyfufx0bSVEICAq/AvK2PtNpNpMgNLWXrpUUZB2le4fGrg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>09FxN5CWmE1nyjbpsBqUrFQhbD/XKIIqSkPwkh0TeSf5CR6GpCKJz9rKQ8UWH4W23IgnKc2PCczvlEmQ9v+4jhusG0pt2YL46c/2KCmQwExIjBt4rrHsOPUwWtYzT07fhf0s1RePTCW9/ZrcNPsx/9FNI2zkZOV0w7tL6UGtHPk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQHFGNEG4rPZtJ5Sdz9GsfSzANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAVABoAGEAbgBnAGEALQBQAEMAXABUAGgAYQBuAGcAYTAeFw0xNDAyMjMxNjQ3NTRaFw0xNTAyMjMyMjQ3NTRaMCsxKTAnBgNVBAMeIABUAGgAYQBuAGcAYQAtAFAAQwBcAFQAaABhAG4AZwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDT0XE3kJaYTWfKNumwGpSsVCFsP9cogipKQ/CSHRN5J/kJHoakIonP2spDxRYfhbbciCcpzY8JzO+USZD2/7iOG6wbSm3Zgvjpz/YoKZDATEiMG3iusew49TBa1jNPTt+F/SzVF49MJb39mtw0+zH/0U0jbORk5XTDu0vpQa0c+QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACopCsT7vRXBScMjcSRIl9kywbEUKq+Qv5rC+xz91w0u9RkDnCcYm7/gNqyW76QqeazXzHqi43hPJtZvZObx+fVKp/0wrWHgUrP+gasBEWrFYs66+7ietipsbUT0uSaW296XNwtD7M8OEf8aIaqcZFuaQmeaeoSeAmLbKp4aTFXR</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
